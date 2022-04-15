@@ -26,32 +26,38 @@ const questions = () => {
                 type: 'input',
                 name: 'description',
                 message: 'Enter a description of your project.',
+                default: ''
             },
             {
                 type: 'input',
                 name: 'installation',
                 message: 'Enter installation instructions.',
+                default: ''
             },
             {
                 type: 'input',
                 name: 'usage',
                 message: 'Enter instructions for use.',
+                default: ''
             },
             {
                 type: 'checkbox',
                 name: 'license',
                 message: 'What licenses did you use for this project? (Check all that apply)',
+                default: '',
                 choices: ['MIT', 'Apache', 'GPLv2', 'GPLv3', 'BSD 3-clause']
             },
             {
                 type: 'input',
                 name: 'contributors',
                 message: 'Enter contributors for the project.',
+                default: ''
             },
             {
                 type: 'input',
-                name: 'tests',
+                name: 'test',
                 message: 'Enter test instructions.',
+                default: ''
             },
             {
                 type: 'input',
@@ -71,6 +77,7 @@ const questions = () => {
                 type: 'input',
                 name: 'email',
                 message: 'Enter your email.',
+                default: ''
             },
         ]);
 
