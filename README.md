@@ -4,6 +4,10 @@
   ## Description:
   A command line application for generating a high-quality README for any project.
 
+
+https://user-images.githubusercontent.com/96707052/163654128-0786ce25-9abb-46ab-a7f1-af321eb563ef.mp4
+
+
   ## Table of Contents 
   - [Description](#description)
   - [Installation](#installation)
